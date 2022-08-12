@@ -26,7 +26,7 @@ const Galery = () => {
         grabCursor={true}
         modules={[EffectCards]}
         loop={true}
-        className="mySwiper"
+        className="mySwiper w-full overflow-hidden"
       >
         {dataGalery.map((item) => (
           <SwiperSlide key={item.id} >
