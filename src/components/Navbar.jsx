@@ -23,7 +23,7 @@ const Navbar = () => {
       <ul className="hidden md:flex md:gap-4 md:text-xl cursor-pointer">
         <li>
           <Link
-            className=" hover:text-[#00ff00]"
+            className=" hover:text-blue-700"
             to="home"
             smooth={true}
             duration={500}
@@ -33,7 +33,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className=" hover:text-[#00ff00]"
+            className=" hover:text-blue-700"
             to="about"
             smooth={true}
             duration={500}
@@ -43,7 +43,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className=" hover:text-[#00ff00]"
+            className=" hover:text-blue-700"
             to="kegiatan"
             smooth={true}
             duration={500}
@@ -53,7 +53,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className=" hover:text-[#00ff00]"
+            className=" hover:text-blue-700"
             to="galery"
             smooth={true}
             duration={500}
@@ -63,7 +63,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className=" hover:text-[#00ff00]"
+            className=" hover:text-blue-700"
             to="contact"
             smooth={true}
             duration={500}
@@ -88,7 +88,7 @@ const Navbar = () => {
       >
         <li className='py-6 text-3xl'>
           <Link
-            className=" hover:text-[#00ff00]"
+            className=" hover:text-blue-700"
             to="home"
             smooth={true}
             duration={500}
@@ -99,7 +99,7 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-3xl'>
           <Link
-            className=" hover:text-[#00ff00]"
+            className=" hover:text-blue-700"
             to="about"
             smooth={true}
             duration={500}
@@ -110,7 +110,7 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-3xl'>
           <Link
-            className=" hover:text-[#00ff00]"
+            className=" hover:text-blue-700"
             to="kegiatan"
             smooth={true}
             duration={500}
@@ -121,7 +121,7 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-3xl'>
           <Link
-            className=" hover:text-[#00ff00]"
+            className=" hover:text-blue-700"
             to="galery"
             smooth={true}
             duration={500}
@@ -132,7 +132,7 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-3xl'>
           <Link
-            className=" hover:text-[#00ff00]"
+            className=" hover:text-blue-700"
             to="contact"
             smooth={true}
             duration={500}
