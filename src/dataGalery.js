@@ -1,11 +1,11 @@
 const dataGalery=  [
     {
         id : 1,
-        images : "/assets/galery/g1.JPG"
+        images : "/assets/galery/g2.JPG"
     },
     {
         id : 2,
-        images : "/assets/galery/g2.JPG"
+        images : "/assets/galery/g1.JPG"
     },
     {
         id : 3,

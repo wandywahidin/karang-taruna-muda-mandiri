@@ -10,7 +10,7 @@ const Kegiatan = () => {
           Kegiatan
         </p>
       </div>
-      <div className="w-full h-full grid md:grid-cols-3 gap-4">
+      <div className="w-[95%] h-full grid md:grid-cols-3 gap-4 mx-auto">
         {dataJson.map((item) => {
           return (
             <div key={item.id}>

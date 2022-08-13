@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ title, images, link, content, date }) => {
   return (
-    <div className="card border border-white rounded grid grid-cols-2">
+    <div className="card border-2 border-white rounded grid grid-cols-2 shadow-lg">
       <div className="border border-white rounded m-3 col-span-2">
         <img src={images} alt="kegiatan 1" />
       </div>

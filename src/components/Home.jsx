@@ -3,9 +3,9 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen">
-      <div className="w-full h-full">
-        <div className="w-full h-full absolute bg-gradient-to-r from-black">
+    <div name="home" className="w-full h-screen ">
+      <div className="w-full h-full ">
+        <div className="w-full h-full absolute bg-gradient-to-r from-black pl-4">
           <div className="flex flex-col justify-center md:items-start md:px-6 items-center w-full h-screen">
             <h1 className="text-white text-3xl md:text-5xl font-bold my-5">
               PEMUDA MEMBANGUN DESA

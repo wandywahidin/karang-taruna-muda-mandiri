@@ -9,12 +9,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full fixed flex justify-between px-8 items-center text-gray-200 backdrop-filter backdrop-blur-lg p-2 z-10">
+    <div className="w-full fixed flex justify-between px-8 items-center text-gray-200 backdrop-filter backdrop-blur-lg p-3 z-10">
       {/* logo */}
       <div className=" cursor-pointer z-20">
         <Link to="home" smooth={true} duration={500} className='text-center' >
-          <h1 className="text-sm md:text-base text-gray-200 font-bold">Karang Taruna</h1>
-          <h1 className=" text-2xl md:text-2xl text-blue-700 font-bold -mt-2">Muda Mandiri</h1>
+          <h1 className="text-base md:text-base text-gray-200 font-bold">Karang Taruna</h1>
+          <h1 className=" text-3xl md:text-2xl text-blue-700 font-bold -mt-2">Muda Mandiri</h1>
           <h1 className="text-xs md:text-xs text-gray-200 font-bold -mt-1 ">Rw 06 Desa Sukasukur Cisayong Tasikmalaya</h1>
         </Link>
       </div>
@@ -83,7 +83,7 @@ const Navbar = () => {
         className={
           !togle
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#0a192f]"
+            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-gradient-to-br from-gray-800 to-black"
         }
       >
         <li className='py-6 text-3xl'>

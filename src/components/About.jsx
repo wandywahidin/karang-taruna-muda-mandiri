@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div name="about" className="w-full h-full min-h-screen bg-gradient-to-tr from-gray-800 to-black text-gray-300">
-      <div className="pb-8 pl-4">
+      <div className="py-8 pl-4">
         <p className="md:text-4xl text-2xl font-bold inline border-b-4 border-blue-700">
           Tentang Kami
         </p>
@@ -20,7 +20,7 @@ const About = () => {
             yang menjadi wadah pengembangan generasi muda, yang tumbuh dan
             berkembang atas dasar kesadaran dan rasa tanggung jawab sosial dari,
             oleh, dan untuk masyarakat, terutama generasi muda di wilayah
-            desa/kelurahan atau komunitas adat sederajat
+            desa/kelurahan atau komunitas adat sederajat. Karang taruna berangggotakan pemuda dan pemudi (dalam AD/ART-nya diatur keanggotaanya, mulai dari pemuda dan pemudi berusia mulai dari 11–40 tahun) dan batas sebagai pengurus adalah berusia 17–35 tahun.
           </p>
         </div>
         <div className="md:text-4xl text-2xl font-bold py-4">
@@ -30,17 +30,17 @@ const About = () => {
           <div className=" grid grid-cols-7">
             <p className=" col-span-3">Pelindung</p>
             <p>:</p>
-            <p className=" col-span-3">Bapak Herlan SH.</p>
+            <p className=" col-span-3">Bapak Herlan, SH.</p>
           </div>
           <div className=" grid grid-cols-7">
             <p className="col-span-3">Penasihat</p>
             <p>:</p>
-            <p className="col-span-3">Ketua RW 06 (Harun)</p>
+            <p className="col-span-3"> Bapak Harun</p>
           </div>
           <div className=" grid grid-cols-7">
             <p className="col-span-3">Pembimbing</p>
             <p>:</p>
-            <p className="col-span-3">Lia Julianti</p>
+            <p className="col-span-3">Ibu Lia Julianti</p>
           </div>
           <div className=" grid grid-cols-7">
             <p className="col-span-3">Ketua</p>
