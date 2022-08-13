@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-full">
       <div className="w-full h-full ">
-        <div className="w-full h-full absolute bg-gradient-to-r from-black pl-4">
+        <div className="w-full h-full absolute  pl-4">
           <div className="flex flex-col justify-center md:items-start md:px-6 items-center w-full h-full">
             <h1 className="text-white text-3xl md:text-5xl font-bold my-5">
               PEMUDA MEMBANGUN DESA
