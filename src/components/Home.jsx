@@ -3,10 +3,10 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen ">
+    <div name="home" className="w-full h-full">
       <div className="w-full h-full ">
         <div className="w-full h-full absolute bg-gradient-to-r from-black pl-4">
-          <div className="flex flex-col justify-center md:items-start md:px-6 items-center w-full h-screen">
+          <div className="flex flex-col justify-center md:items-start md:px-6 items-center w-full h-full">
             <h1 className="text-white text-3xl md:text-5xl font-bold my-5">
               PEMUDA MEMBANGUN DESA
             </h1>
@@ -18,7 +18,8 @@ const Home = () => {
               makmur berdasarkan Pancasila.
             </p>
             <div className="my-4">
-              <Link to='kegiatan'
+              <Link
+                to="kegiatan"
                 className="relative inline-flex items-center justify-center px-10 py-2 font-bold text-xl tracking-tighter text-white bg-gray-800 rounded-md group mx-6 my-4"
               >
                 <span className="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-blue-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
